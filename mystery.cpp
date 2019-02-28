@@ -32,7 +32,7 @@ void mystery2(auto& Data)
 	{
 	 for (int j=0; j < Data.size() -1; j++)
 	  if (Data[j+1] < Data[j])
-	   swap (Data[i], Data [j]);
+	   swap (Data[j+1], Data [j]);
 	 
 	  print(Data);
      }
